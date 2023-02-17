@@ -1,3 +1,4 @@
+# Anželika Krasiļņikova 221RDB200 1.grupa
 from collections import namedtuple
 
 Bracket = namedtuple("Bracket", ["char", "position"])
@@ -23,7 +24,6 @@ def find_mismatch(text):
             else:
                 return i
             
-    # Can I add code here?
     if len(opening_brackets_stack)>0:
             return opening_brackets_stack[0].position
 
